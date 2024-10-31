@@ -1,0 +1,7 @@
+def remove_duplicates(arr):
+    return list(set(arr))
+
+# Example usage
+array = [1, 2, 2, 3, 4, 4, 5]
+unique_array = remove_duplicates(array)
+print("Array without duplicates:", unique_array)

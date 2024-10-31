@@ -1,0 +1,7 @@
+def multiply_array(arr, factor):
+    return [x * factor for x in arr]
+
+# Example usage
+array = [1, 2, 3, 4]
+multiplied_array = multiply_array(array, 2)
+print("Array after multiplication:", multiplied_array)
